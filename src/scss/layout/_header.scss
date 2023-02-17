@@ -1,5 +1,6 @@
 @import '/src/scss/utilities/mixins';
 @import url(//db.onlinewebfonts.com/c/22666f3327d67d77b16655c5a673bad2?family=FrontageCondensed-Bold);
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Sofia+Sans+Semi+Condensed:ital,wght@0,1;0,500;1,700;1,1000&display=swap');
 
 header{
     width: 100%;
@@ -14,7 +15,7 @@ header{
         color: white;
         font-size: 35px;
         text-align: center;
-        display:inline;
+        
       }
 
     nav{
@@ -49,9 +50,9 @@ header{
             margin: 1em 0;
           }
           a{
-            font-family: Arial, Helvetica, sans-serif;
+            font-family: Sofia Sans Semi Condensed;
             color: #FFFFFF;
-            font-size: medium;
+            font-size: 18px;
             font-weight: bolder;
             text-decoration: none;
           }
