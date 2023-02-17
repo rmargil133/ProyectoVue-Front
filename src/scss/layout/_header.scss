@@ -9,6 +9,8 @@ header{
     @include flex( row , wrap , space-between , center);
     background: #363636;
 
+      div{width: 370px;}
+
       h1{
         color:#FFFFFF;
         font-family: FrontageCondensed-Bold;

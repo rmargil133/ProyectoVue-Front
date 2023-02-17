@@ -1,5 +1,6 @@
 <template>
     <header>
+        <div class="vacio"></div>
         <h1>GARAKOHANDMADE</h1>
       <nav class="nav">
           <ul>
