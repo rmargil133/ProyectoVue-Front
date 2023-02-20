@@ -1,5 +1,10 @@
 # garakohandmade
 
+## ENLACE DESPLIEGUE
+```
+https://garakohandmade.netlify.app/
+```
+
 ## Project setup
 ```
 npm install
