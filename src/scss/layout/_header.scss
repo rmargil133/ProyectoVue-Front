@@ -10,7 +10,11 @@ header{
     background: #363636;
 
       div{width: 370px;}
-
+      
+      .enlace_logo{
+        text-decoration: none;
+        color:#FFFFFF;
+      }
       h1{
         color:#FFFFFF;
         font-family: FrontageCondensed-Bold;
@@ -58,10 +62,6 @@ header{
             font-weight: bolder;
             text-decoration: none;
           }
-          img{
-            width: 180px;
-            height: 100px;
-          }
         }
       }
       li:hover{
@@ -74,4 +74,56 @@ header{
       }
 
     }
+}
+
+.secundario{
+  width: 100%;
+  height: 12vh;
+  
+  background: #363636;
+
+    &__vacio{
+      width: 360px;
+    }
+    
+    &__enlace_logo{
+      text-decoration: none;
+      color:#FFFFFF;
+    }
+    h1{
+      color:#FFFFFF;
+      font-family: FrontageCondensed-Bold;
+      color: white;
+      font-size: 35px;
+      text-align: center;
+      
+    }
+    &__vacio2{
+      width: 360px;
+    }
+}
+
+.headerLogueado{
+  width: 100%;
+  height: 12vh;
+  
+  background: #363636;
+
+    &__vacio{
+      width: 360px;
+    }
+    
+    &__enlace_logo{
+      text-decoration: none;
+      color:#FFFFFF;
+    }
+    h1{
+      color:#FFFFFF;
+      font-family: FrontageCondensed-Bold;
+      color: white;
+      font-size: 35px;
+      text-align: center;
+      
+    }
+    
 }

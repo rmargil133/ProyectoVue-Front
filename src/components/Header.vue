@@ -1,13 +1,13 @@
 <template>
     <header>
         <div class="vacio"></div>
-        <h1>GARAKOHANDMADE</h1>
+        <h1><router-link to="/" class="enlace_logo">GARAKOHANDMADE</router-link></h1>
       <nav class="nav">
           <ul>
-            <li><a href="listado1.html">Articulos</a></li>
-            <li><a href="contacto1.html">Contacto</a></li>
-            <li><a href="register.html">Register</a></li>
-            <li><a href="login.html">Log-In</a></li>
+            <li><router-link to="/listadoPrincipal">Articulos</router-link></li>
+            <li><router-link to="/contactoPrincipal">Contacto</router-link></li>
+            <li><router-link to ="/registro">Register</router-link></li>
+            <li><router-link to="/login">Log-In</router-link></li>
           </ul>
       </nav>
     </header>
@@ -15,7 +15,7 @@
 
 <script>
 export default {
-  name: 'HeaderPrimero'
+  name: 'headerPrincipal'
 }
 </script>
 

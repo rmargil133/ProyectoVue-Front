@@ -1,0 +1,82 @@
+
+.homeLogueado{
+    height: 76vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  
+    &__imagen{
+      position: relative;     
+      width: 100%;
+      height: 100%;     
+      object-fit: cover;
+  
+    }
+  
+    &__titulo {
+      position: absolute;
+      top: 13%;
+      font-family: Sofia Sans Semi Condensed;
+      font-style: normal;
+      font-weight: 550;
+      font-size: 3vw;
+      color: #000000;
+      text-shadow: 0 0 25px #fff;
+     }
+  
+      &__texto {
+        position: absolute;
+        top: 23%;
+        font-family: Sofia Sans Semi Condensed;
+        font-style: normal;
+        font-weight: 550;
+        font-size: 1vw;
+        color: #FFFFFF;
+        text-shadow: 0 0 25px #fff;
+        text-align: center;
+        width: 700px;
+        line-height: 33px;
+       }
+     
+      &__texto1 {
+        position: absolute;
+        top: 43%;
+        font-family: Sofia Sans Semi Condensed;
+        font-style: normal;
+        font-weight: 550;
+        font-size: 1vw;
+        color: #FFFFFF;
+        text-shadow: 0 0 25px #fff;
+        text-align: center;
+        width: 700px;
+        line-height: 33px;
+       }
+  
+    &__buscador{
+      width: 350px;
+      height:45px;
+      position: absolute;
+      top: 16%;
+      left: 20px;
+      border-radius: 10px;
+      text-indent: 5px;
+      border-color: black;
+      color: black;
+      opacity: .6;
+    }
+  
+    &__boton{
+      width: 55px;
+      height: 45px;
+      position: absolute;
+      top: 16%;
+      left: 316px;
+      border-radius: 10px;
+      border-color: black;
+      opacity: .6;
+      cursor: pointer;
+    }
+  }
+  
