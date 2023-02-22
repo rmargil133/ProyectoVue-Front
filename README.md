@@ -2,7 +2,7 @@
 
 ## ENLACE DESPLIEGUE
 ```
-https://garakohandmade.netlify.app/
+https://garakohandm.netlify.app/
 ```
 
 ## Project setup
